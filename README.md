@@ -21,7 +21,7 @@ The Tool takes 3 Arguments:
 for testing you can run    
 
 ```
-node rename.js -p ./ -f .txt -s DDMMYYYY
+node rename.js -p ./example/ -f .txt -s DDMMYYYY
 ```
 
 ## License
