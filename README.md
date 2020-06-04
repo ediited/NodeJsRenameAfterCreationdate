@@ -14,11 +14,11 @@ The Tool takes 3 Arguments:
 ```
 -p /PATH/TO/FOLDER -f .filetype -s stucture
 ```
--s is optional and defines which format is used. You can choose from "1":YYYYMMDD, "2":YYYYDDMM, and "3": DDMMYYYY. (Default: YYYYMMDD)
--f needs to be the filetype which should be renamed (.mp4,.tif,.html). This tool will only rename one type at a time.
--p the relative or absolute Path to the folder in which the files to rename are located
-
-for testing you can run
+-s is optional and defines which format is used. You can choose from "1":YYYYMMDD, "2":YYYYDDMM, and "3": DDMMYYYY. (Default: YYYYMMDD)  
+-f needs to be the filetype which should be renamed (.mp4,.tif,.html). This tool will only rename one type at a time.    
+-p the relative or absolute Path to the folder in which the files to rename are located  
+  
+for testing you can run    
 
 ```
 node rename.js -p ./ -f .txt -s DDMMYYYY
