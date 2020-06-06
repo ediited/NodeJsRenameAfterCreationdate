@@ -1,13 +1,17 @@
 # Project Title
 
-A small utility tool to rename a bulk of files into "YYYY.MM.DD[X]" format using Node.js
+A small utility tool for Windows used to rename a bulk of files into "YYYY.MM.DD[X]" format based on the file creation date using Node.js. 
 
 ## Getting Started
 
-Just clone the repository and you're good to go.
+clone the repository and run 
+
+```
+$npm -i
+```
+
 
 ## How to use:
-
 
 The Tool takes 3 Arguments: 
 
