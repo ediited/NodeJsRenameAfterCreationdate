@@ -1,0 +1,25 @@
+{
+  "name": "nodejsrenameaftercreationdate",
+  "version": "1.0.0",
+  "description": "A small utility tool to rename a bulk of files into \"YYYY.MM.DD[X]\" format using Node.js",
+  "main": "rename.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ediited/NodeJsRenameAfterCreationdate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ediited/NodeJsRenameAfterCreationdate/issues"
+  },
+  "homepage": "https://github.com/ediited/NodeJsRenameAfterCreationdate#readme",
+  "dependencies": {
+    "minimist": "^1.2.5"
+  }
+}

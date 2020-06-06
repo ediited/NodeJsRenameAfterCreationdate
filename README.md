@@ -4,7 +4,7 @@ A small utility tool to rename a bulk of files into "YYYY.MM.DD[X]" format using
 
 ## Getting Started
 
-Just clone the repository and youre good to go.
+Just clone the repository and you're good to go.
 
 ## How to use:
 
@@ -15,8 +15,8 @@ The Tool takes 3 Arguments:
 -p /PATH/TO/FOLDER -f .filetype -s stucture
 ```
 -s is optional and defines which format is used. You can choose from "1":YYYYMMDD, "2":YYYYDDMM, and "3": DDMMYYYY. (Default: YYYYMMDD)  
--f needs to be the filetype which should be renamed (.mp4,.tif,.html). This tool will only rename one type at a time.    
--p the relative or absolute Path to the folder in which the files to rename are located  
+-f needs to be the filetype which should be renamed (.mp4,.tif,.html). This tool will only rename one type at a time. (Default: .mp4) 
+-p the path to the folder in which the files to rename are located  (Default: ./ )
   
 for testing you can run    
 
