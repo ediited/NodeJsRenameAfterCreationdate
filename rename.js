@@ -2,20 +2,13 @@
 var path = require('path'), fs=require('fs');
 var fileName;
 var stats;
-var fromPath;
-var fileFormat;
-
+var fromPath = "./";
+var fileFormat =".mp4";
 
 process.argv.forEach(function (val, index, array) {
     console.log(index + ': ' + val);
 
 });
-// if(process.argv){
-
-
-// }
-
-
 function getFilesFromPath(path, extension) {
     let files = fs.readdirSync( path );
     return files.filter( file => file.match(new RegExp(`.*\.(${extension})`, 'ig')));
